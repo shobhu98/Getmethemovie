@@ -4,7 +4,7 @@
 function getMovie() {
     let movie=document.getElementById('text').value;
     let year=document.getElementById('year').value;
-    let a='http://www.omdbapi.com/?t='+movie+'&year='+year+'&apikey=81855d4c&';
+    let a='https://www.omdbapi.com/?t='+movie+'&year='+year+'&apikey=81855d4c&';
     // let a='http://www.omdbapi.com/?t=Game of Thrones&Season=1&apikey=81855d4c&';
     console.log(a);
 
